@@ -41,6 +41,64 @@ public class Examen_01 {
        System.out.println(Estado);
 
     }
+     
+     public static void pEjercicio_02() {
+
+        //Definir variables
+        double Precio, Descuento, igv, Total, PrecioFinal;
+        
+        //Datos de entrada
+        System.out.println("Ingrese el precio del artefacto: ");
+        Precio = leerTeclado.nextDouble();
+        
+        //Proceso
+        if (Precio>= 2000) {  
+            Descuento = Precio * 0.10;
+        }else if (Precio>1000 && Precio<2000) {
+            Descuento = Precio * 0.05;
+        }else if (Precio>=500 && Precio<1000) {
+            Descuento = Precio * 0.02;
+        }else{
+            Descuento =  Precio * 0;
+        }
+        Total = Precio - Descuento;
+        igv = Total * 0.18;
+        PrecioFinal = Total + igv;
+
+        //Datos de salida
+        System.out.println("El igv es: "+ igv);
+        System.out.println("El descuento es : "+ Descuento);
+        System.out.println("El monto total a pagar es de: "+ PrecioFinal);
+    }
+
+
+    public static void Ejercicio_4() {
+        
+        //Definir variables
+        double anho;
+        String mensaje, genero;
+
+        //Datos de entrada
+        System.out.println("Ingrese la cantidad de años: ");
+        anho=leerTeclado.nextDouble();
+        System.out.println("Ingrese su genero (masculino o femenino): ");
+        genero=leerTeclado.next();
+        
+        //Proceso
+        if (anho>=70) {
+            mensaje=("Su vacuna es de tipo C");
+        }else if (anho>=16 && anho<=69 && genero=="masculino") {
+            mensaje=("Su vacuna es de tipo A");
+        }else if (anho>=16 && anho<=69 && genero=="femenino") {
+            mensaje=("Su vacuna es de tipo B");
+        }else{
+            mensaje=("vacuna de tipo A");
+        }
+        //Datos de salida
+        System.out.println(mensaje);
+        
+    }
 }
+
 
 
