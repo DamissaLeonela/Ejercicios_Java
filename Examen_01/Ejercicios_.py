@@ -1,3 +1,19 @@
+def Ejercicio_01():
+    #Definir variables
+    examen : float()
+    entrevista : float()
+    test : float()
+
+
+
+
+
+
+
+
+
+
+
 import java.util.Scanner;
 
 /**
