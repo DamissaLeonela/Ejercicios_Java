@@ -27,18 +27,18 @@ public class Examen_01 {
        /* >=17 y <=20 Obtuvo la vacante, su nivel es 4; <17 y >14 Obtuvo la vacante, su nivel es 3
        <=14 y >=11 Obtuvo la vacante, su nivel es 2; <11 No tiene vacante, su nivel es 1
        */
-        if (Promedio>=17 && Promedio<=20) {
+       if (Promedio>=17 && Promedio<=20) {
             Estado = "\n\n Aprobo \n\t Obtuvo la vacante, su nivel es 4";
-        }else if (Promedio<17 && Promedio>=14) {
+       }else if (Promedio<17 && Promedio>=14) {
             Estado = "\n\n Aprobo \n\t Obtuvo la vacante, su nivel es 3";
-        }else if (Promedio<=14 && Promedio>=11) {
+       }else if (Promedio<=14 && Promedio>=11) {
             Estado = "\n\n Aprobo \n\t Obtuvo la vacante con nivel baja, su nivel es 2";
-        }else if (Promedio<11) {
+       }else if (Promedio<11) {
             Estado = "\n\n Desaprobo, su nivel es 1";
-        }
+       }
          
-        //Datos de salida
-        System.out.println(Estado);
+       //Datos de salida
+       System.out.println(Estado);
 
     }
 }
