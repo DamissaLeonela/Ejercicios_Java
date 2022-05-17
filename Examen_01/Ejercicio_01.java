@@ -42,7 +42,7 @@ public class Examen_01 {
 
     }
      
-     public static void pEjercicio_02() {
+     public static void Ejercicio_02() {
 
         //Definir variables
         double Precio, Descuento, igv, Total, PrecioFinal;
