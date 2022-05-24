@@ -5,7 +5,9 @@ import java.util.Scanner;
 /**
  * Ejercicios
  */
+
 public class Examen_01 {
+    
     static Scanner leerTeclado=new Scanner(System.in);
        
     public static void Ejercicio_01() { 
