@@ -7,7 +7,6 @@ package SubProgramas;
 
 public class Aritmetica {
     int va, vb;
-
     Aritmetica(){        
     }
 
