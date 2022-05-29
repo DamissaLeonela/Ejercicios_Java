@@ -1,5 +1,7 @@
+
 def Ejercicio_01 () :
-    #Definir variables
+   
+   #Definir variables
     examen : float
     entrevista : float
     test : float
@@ -35,6 +37,7 @@ def Ejercicio_01 () :
 
 
 def ejercici_o2 ():
+   
     #Definir variable
     descuento : float
     igv : float
@@ -66,6 +69,7 @@ def ejercici_o2 ():
 
 
 def ejercici_o3 ():
+    
     #Definir variables
     numerouno : float
     numerodos : float
@@ -100,6 +104,7 @@ def ejercici_o3 ():
 
 
 def ejercici_o4 ():
+    
     #Definir variables
     edad : float
     genero : float

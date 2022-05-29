@@ -1,3 +1,4 @@
+
 package EstRepetitivas;
 
 import java.util.Scanner;
@@ -10,10 +11,12 @@ public class EjerciciosR_02 {
     static Scanner lt=new Scanner(System.in);
 
     public static void impuestoVehiculo0418() {
+        
         //Definir variables
         String cateV="";
         int cantidad=0;
         double costV=0, impUnit=0, impTotal=0, totalImpV=0;
+        
         //Datos de Entrada y Salida
         for (int i = 0; i < 3; i++) {
             System.out.println("Ingrese la Cantidad de Vehiculos de Categoria "+(i+1)+": ");
@@ -38,7 +41,7 @@ public class EjerciciosR_02 {
         impuestoVehiculo0418();    
     
     }
-        
+       
 }
    
 

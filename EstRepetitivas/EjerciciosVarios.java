@@ -1,3 +1,4 @@
+
 package EstRepetitivas;
 
 import java.util.Scanner;
@@ -5,7 +6,9 @@ import java.util.Scanner;
 /**
  * EjerciciosVarios
  */
+
 public class EjerciciosVarios {
+
     static Scanner leerT=new Scanner(System.in);
 
     public static long factoriallN(int numero) {
@@ -25,6 +28,5 @@ public class EjerciciosVarios {
             System.out.println("Factorial de "+ i+" es:"+factoriallN(i));
         } 
     }
-
     
 }

@@ -1,8 +1,10 @@
+
 package EstRepetitivas;
 
 /**
  * EjerciciosR
  */
+
 public class EjerciciosR {
 
     public static void imprimirWhileN1_10() {
@@ -26,12 +28,12 @@ public class EjerciciosR {
         }
     }
 
-
     public static void main(String[] args) {
         System.out.println("Imprime While:"); imprimirWhileN1_10();
         System.out.println("Imprime Do While:"); imprimirWhileN1_10();
         System.out.println("Imprime for:"); imprimirForN1_20();
         
     }
+    
 }
 

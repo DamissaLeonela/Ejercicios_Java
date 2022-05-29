@@ -1,3 +1,4 @@
+
 package Examen_01;
 
 import java.util.Scanner;
@@ -6,11 +7,11 @@ import java.util.Scanner;
  * Ejercicios
  */
 
-public class Examen_01 {
+public class Ejercicios_01 {
     
     static Scanner leerTeclado=new Scanner(System.in);
        
-    public static void Ejercicio_01() { 
+    public static void Ejercicio_01 () { 
 
        //Definir variables
        double Examen, Entrevista, Test, Promedio;
@@ -44,7 +45,7 @@ public class Examen_01 {
 
     }
      
-     public static void Ejercicio_02() {
+     public static void Ejercicio_02 () {
 
         //Definir variables
         double Precio, Descuento, igv, Total, PrecioFinal;
@@ -74,7 +75,7 @@ public class Examen_01 {
     }
 
 
-    public static void Ejercicio_4() {
+    public static void Ejercicio_03 () {
         
         //Definir variables
         double anho;
@@ -96,6 +97,7 @@ public class Examen_01 {
         }else{
             mensaje=("vacuna de tipo A");
         }
+        
         //Datos de salida
         System.out.println(mensaje);
         
