@@ -1,11 +1,6 @@
-
 package Examen_01;
 
 import java.util.Scanner;
-
-/**
- * Ejercicios
- */
 
 public class Ejercicios_01 {
     

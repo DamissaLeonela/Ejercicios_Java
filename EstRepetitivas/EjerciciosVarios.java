@@ -1,11 +1,6 @@
-
 package EstRepetitivas;
 
 import java.util.Scanner;
-
-/**
- * EjerciciosVarios
- */
 
 public class EjerciciosVarios {
 

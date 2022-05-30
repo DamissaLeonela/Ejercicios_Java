@@ -1,4 +1,3 @@
-
 def Ejercicio_01 () :
    
    #Definir variables

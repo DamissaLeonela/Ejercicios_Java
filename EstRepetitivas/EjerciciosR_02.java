@@ -1,11 +1,7 @@
-
 package EstRepetitivas;
 
 import java.util.Scanner;
 
-/**
- * EjerciciosR_02
- */
 public class EjerciciosR_02 {
 
     static Scanner lt=new Scanner(System.in);

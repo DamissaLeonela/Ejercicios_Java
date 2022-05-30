@@ -1,9 +1,4 @@
-
 package SubProgramas;
-
-/**
- * Aritmetica
- */
 
 public class Aritmetica {
     int va, vb;

@@ -1,4 +1,3 @@
-
 def Ejercicio_01 () :
     
     print("Calcular el area del triángulo")

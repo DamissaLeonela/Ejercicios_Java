@@ -1,9 +1,4 @@
-
 package EstRepetitivas;
-
-/**
- * EjerciciosR
- */
 
 public class EjerciciosR {
 
