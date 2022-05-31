@@ -1,9 +1,5 @@
  package recursividad;
  
- /**
-  * EjemploRecursividad
-  */
-
  public class EjemploRecursividad {
 
     public static int factorialR(int n) {
